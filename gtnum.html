@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Guessing a number</title>
+    <link rel="stylesheet" href="gtnum.css">
+
+</head>
+<body>
+    
+        <h1>Number Guessing Game</h1>
+        <p>Try and guess a random number between to 100.    </p>
+        <p>You have 10 attempts to guess the right number. </p>
+
+        
+        <div class="container">
+            <form action="" class="form">
+                    <label for="guessfield" id="guess">Guess a Number</label>
+                    <input type="text" id="guessfield" class="guessfield">
+                    <input type="submit" id="sub" value="Submit guesses" class="guessSubmit">
+            </form>        
+            <div class="result">
+                        <p> Previous guesses: <span class="guesses"></span></p>
+                        <p>Guess Remaining: <span class="lastResult">10</span></p>
+                        <p class="lowOrhi"></p>
+                    </div>
+    
+    </div>   
+ <script src="gtnum.js"></script>   
+</body>
+</html>
